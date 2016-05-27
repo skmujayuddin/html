@@ -1,0 +1,23 @@
+<!doctype HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title May 9 - JS functions>
+</title>
+</head>
+<body>
+<p id="abc"> Multiplication - Internal JS function </p>
+<p id="xyz"></p>
+<script>
+function product(x,y) 
+{
+	debugger;
+	var z;
+	z=x*y;
+	return z;
+}
+var m=product(40,20);
+document.getElementById("xyz").innerHTML = m;
+</script>
+</body>
+</html>
